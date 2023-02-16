@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nameSite {
+  box-sizing: content-box;
+  font-size: 46px;
+  font: italic small-caps bold 26px/2 cursive;
+  color: white;
+  background-color: rosybrown;
+  margin: 3px auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.nameSite:active {
+  box-sizing: content-box;
+  color: red;
+  background-color: rosybrown;
+  margin: 3px auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.conteiner {
+  display: flex;
+  align-items: center;
+  font-size: 16pt;
+  padding: 20px;
+}
+
+.lesWork,
+.lesWork::selection {
+  border: solid #5b6dcd 5px;
+  margin: auto;
+  padding: 5px;
+  color: burlywood;
+  background-color: white;
+  font: italic small-caps bold 16px/2 cursive;
+  font-size: 16pt;
+  text-align: center;
+}
+
+.lesWork:hover {
+  color: red;
+  background-color: yellow;
+  font-size: 20pt;
+  margin: auto;
+  text-align: center;
+}
+
+.myPhoto {
+  width: 40%;
+  height: 40%;
+  position: relative;
+}
+
+.myPhoto img {
+  width: 40%;
+  height: 40%;
+  cursor: pointer;
+}
+
+.myPhoto img:hover {
+  width: 50%;
+  height: 50%;
+  top: -90px;
+}
+
+.buttons {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons div {
+  cursor: pointer;
+}
